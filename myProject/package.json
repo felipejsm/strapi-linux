@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "lodash": "4.x.x",
-    "strapi": "3.0.0-alpha.9.3",
-    "strapi-mongoose": "3.0.0-alpha.9.3"
+    "strapi": "3.0.0-alpha.10.1",
+    "strapi-mongoose": "3.0.0-alpha.10.1"
   },
   "author": {
     "name": "felipe",
@@ -36,7 +36,7 @@
     }
   ],
   "strapi": {
-    "uuid": "3f794089-21c1-4f98-8b38-97b8f8a6f385"
+    "uuid": "0427e70b-35ec-4df8-a885-a83eace2c1d5"
   },
   "engines": {
     "node": ">= 7.0.0",
