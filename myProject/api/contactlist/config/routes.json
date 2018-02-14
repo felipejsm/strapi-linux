@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contactlist",
+      "handler": "ContactList.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/contactlist/:_id",
+      "handler": "ContactList.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/contactlist",
+      "handler": "ContactList.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contactlist/:_id",
+      "handler": "ContactList.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contactlist/:_id",
+      "handler": "ContactList.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
